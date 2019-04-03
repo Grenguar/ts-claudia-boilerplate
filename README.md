@@ -10,5 +10,7 @@ For the first time you should run this command.
 
 After that you can use scripts from package.json: 
 ```tsc && claudia update --api-module bin/app```
+
 ```tsc && claudia create --api-module bin/app```
+
 ```tsc && claudia pack --api-module bin/app --force```
