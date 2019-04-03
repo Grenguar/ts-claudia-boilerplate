@@ -9,6 +9,7 @@ For the first time you should run this command.
 ```tsc && claudia create --api-module bin/app --region```
 
 After that you can use scripts from package.json: 
+
 ```tsc && claudia update --api-module bin/app```
 
 ```tsc && claudia create --api-module bin/app```
