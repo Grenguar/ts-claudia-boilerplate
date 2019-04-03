@@ -1,0 +1,14 @@
+{
+    "compilerOptions": {
+      "baseUrl": ".",
+      "paths": { "*": ["types/*"] },
+      "outDir": "./bin",   // Our compiled files will be placed here
+      "rootDir": "./src", // Our TypeScript files
+      "lib": ["esnext"],
+      "target": "es6",
+      "esModuleInterop": true,
+      "allowSyntheticDefaultImports": true,
+      "noImplicitAny": false,
+      "module": "commonjs",
+    }
+  }

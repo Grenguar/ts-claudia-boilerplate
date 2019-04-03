@@ -1,0 +1,17 @@
+{
+  "name": "ts-claudia",
+  "version": "1.0.0",
+  "description": "",
+  "main": "bin/app.js",
+  "scripts": {
+    "update": "tsc && claudia update --api-module bin/app",
+    "create": "tsc && claudia create --api-module bin/app",
+    "pack": "tsc && claudia pack --api-module bin/app --force"
+  },
+  "author": "Igor Soroka",
+  "license": "ISC",
+  "dependencies": {
+    "claudia-api-builder": "^4.1.2",
+    "typescript": "^3.4.1"
+  }
+}
